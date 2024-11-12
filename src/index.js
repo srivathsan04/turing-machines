@@ -1,18 +1,12 @@
-/**
- * @typedef {import('./turingMachines/singleTape/singleTM').SingleTapeTuringMachine} SingleTapeTuringMachine
- * @typedef {import('./turingMachines/singleTape/singleTM').runSingleTapeTM} runSingleTapeTM
- * @typedef {import('./turingMachines/singleTape/singleTM').printHistory} printHistory
- * @typedef {import('./turingMachines/singleTape/singleTM').singleTapeTM} singleTapeTM
- */
-
 import {
   singleTapeTuringMachine,
   runSingleTapeTM,
   printHistory,
   copyAndPaste,
   flipTheBits,
-  singleTM
-} from './turingMachines/index.js';
+  reverseString,
+  singleTM,
+} from "./turingMachines/index.js";
 
 export {
   /**@type {singleTapeTuringMachine} */
@@ -23,6 +17,7 @@ export {
   printHistory,
   copyAndPaste,
   flipTheBits,
+  reverseString,
   /**@type {singleTapeTM} */
-  singleTM
+  singleTM,
 };
